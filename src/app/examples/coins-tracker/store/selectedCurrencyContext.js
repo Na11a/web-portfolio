@@ -1,5 +1,5 @@
 import { useState, createContext } from "react";
-import API from "../API";
+import API from "../Api";
 
 const DEFAULT_INTERVAL = "1D";
 export const INTERVALS = {
