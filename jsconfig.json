@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl":".",
+    "paths": {
+      "@/componentsExamples/*": ["/src/app/examples/animations/components/*"],
+      "@/*": ["./src/*"],
+      "@/styles/*": ["*/styles/*"],
+      "@/utils/*": ["utils/*"],
+      "@/assets/*": ["assets/*"]
+    }
+  }
+}
