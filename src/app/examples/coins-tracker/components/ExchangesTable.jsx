@@ -19,7 +19,7 @@ function ExchangesTable({ rows }) {
 				<h4>Total(%)</h4>
 			</li>
 			{rows.map((row) => (
-				<li className="row row-no-hover">
+				<li key={row.name} className="row row-no-hover">
 					<span>{row.rank}</span>
 					<span>{row.name}</span>
 					<span>
