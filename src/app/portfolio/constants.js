@@ -12,7 +12,7 @@ import {
   threejs,
   git,
   figma,
-  interlinkLogo,
+  boostLogo,
   inforceLogo,
   softonixLogo,
 } from "../assets";
@@ -74,14 +74,16 @@ export const technologies = [
 
 export const experiences = [
 {
-  title: "Full Stack Developer Intership",
-  company_name: "Interlink",
-  icon: interlinkLogo,
+  title: "React Developer",
+  company_name: "Boost Solution",
+  icon: boostLogo,
   iconBg: "#776655",
-  date: "April 2021 - June 2021",
+  date: "June 2020 - June 2021",
   points: [
-    "Developing and maintaining web applications using React.js and other related technologies.",
-    "Study HTML, CSS, JS and React technologies for Front and .Net for Back",
+    "Improved skills in MUI, React, Styled Components, Rest API, React Query.",
+    "Gain great experience working with international teams.",
+    "Development and improvement of websites performance, cleaning and updating app code.",
+    "Development of frontend architecture, its implementation",
   ],
 },
 {

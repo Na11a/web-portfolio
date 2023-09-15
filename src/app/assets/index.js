@@ -15,6 +15,7 @@ import graphQL from "./tech/graphQL.png";
 import interlinkLogo from './companies/InterlinkLogo.png'
 import inforceLogo from './companies/inforceLogo.svg'
 import softonixLogo from './companies/softonixLogo.svg'
+import boostLogo from './companies/boost.png'
 import djinniIcon from './companies/djinni.jpeg'
 import githubIcon from './companies/github-icon.svg'
 import linkindnIcon from './companies/linkedin-icon.svg'
@@ -35,7 +36,7 @@ export {
     typescript,
     threejs,
     graphQL,
-    interlinkLogo,
+    boostLogo,
     inforceLogo,
     softonixLogo,
     djinniIcon,

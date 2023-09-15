@@ -8,7 +8,6 @@ import MenuOverlay from "./MenuOverlay";
 import Navbar from "./Navbar";
 import NavLink from "./NavLink";
 import ProjectCard from "./ProjectCard";
-import ProjectsSection from "./ProjectsSection";
 import ProjectTag from "./ProjectTag";
 import Tech from "./Tech";
 
@@ -23,7 +22,6 @@ export {
     Navbar,
     NavLink,
     ProjectCard,
-    ProjectsSection,
     ProjectTag,
     Tech
 }

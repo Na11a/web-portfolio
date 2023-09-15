@@ -27,7 +27,7 @@ const AboutSection = () => {
       <motion.div className='bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full bg-gray-500 '>
         <div className='mt-1'>
           <div className='text-white tracking-wider text-[18px] space-y-2 '>
-            <p>I have had the pleasure of working closely with Maksym more than 1 year when he occupied position of Middle Frontend Engineer. I can confidently attest to his exceptional technical skillset, strong work ethic, and valuable contributions to our development team.</p>
+            <p>I have had the pleasure of working closely with Maksym more than 1 year when he occupied position of Middle Full Stack Engineer. I can confidently attest to his exceptional technical skillset, strong work ethic, and valuable contributions to our development team.</p>
 
             <p>Maksym is product and client oriented engineer and he consistently exhibited a proactive approach to identifying and addressing potential issues, often proposing innovative solutions that improved overall application performance and user experience. His dedication to continuous learning and self-improvement was evident in their pursuit of new technologies. Even though his main responsibility was frontend engineering, he was able to growth as full-stack, working with such modern technologies like Supabase Cloud Backend infrastructure.</p>
 

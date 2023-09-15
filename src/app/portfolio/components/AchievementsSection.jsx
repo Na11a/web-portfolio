@@ -1,23 +1,22 @@
 "use client";
-import AnimatedNumbers from 'react-animated-numbers'
 
 const achievementsList = [
   {
     metric: "Companies",
-    value: "2",
-  },
-  {
-    metric: "Projects",
     value: "3",
   },
   {
+    metric: "Projects",
+    value: "5",
+  },
+  {
     metric: "Technologies",
-    value: "10",
+    value: "12",
     postfix: "+"
   },
   {
     metric: "Years of Experiece",
-    value: "2",
+    value: "3",
     postfix: '+'
   },
 ];
@@ -33,20 +32,8 @@ const AchievementsSection = () => {
               className="flex flex-col items-center justify-center mx-4 my-4 sm:my-0"
             >
               <h2 className="text-white text-4xl font-bold flex flex-row">
-                {achievement.prefix}
-                <AnimatedNumbers
-                  includeComma
-                  animateToNumber={parseInt(achievement.value)}
-                  locale="en-US"
-                  className="text-white text-4xl font-bold"
-                  configs={(_, index) => {
-                    return {
-                      mass: 1,
-                      friction: 100,
-                      tensions: 140 * (index + 1),
-                    };
-                  }}
-                />
+                <span>{achievement.prefix}</span>
+                <span>{achievement.value}</span>
                 <span>{achievement.postfix}</span>
               </h2>
               <p className="text-[#ADB7BE] text-base">{achievement.metric}</p>
