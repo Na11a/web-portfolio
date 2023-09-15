@@ -78,17 +78,6 @@ function Navbar({visible, show}) {
 						
 					</div>
 				</div>
-
-				<div className="links">
-					<Link href="/settings" className="nav-link">
-						<FaCog size={ICON_SIZE} />
-						<span>Settings</span> 
-					</Link>
-					<Link href="/Sign-out" className="nav-link">
-						<FaSignOutAlt size={ICON_SIZE} />
-						<span>Logout</span> 
-					</Link>
-				</div>
 			</div>
 		</>
   );

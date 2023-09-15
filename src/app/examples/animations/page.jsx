@@ -19,4 +19,10 @@ const Page = () => (
      </div>
 )
 
+export async function generateMetadata({ params }) {
+    return {
+      title: 'Animations',
+    }
+}
+
 export default Page;

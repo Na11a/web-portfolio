@@ -1,5 +1,5 @@
 import React, { useContext, useEffect } from "react";
-import { AppContext } from "../page";
+import { AppContext } from "../layout";
 
 function Letter({ letterPos, attemptVal }) {
   const { board, setDisabledLetters, currAttempt, correctWord } =

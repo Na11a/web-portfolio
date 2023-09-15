@@ -3,7 +3,7 @@ export default function Page(){
 }
 
 export async function generateMetadata({ params }) {
-  return {
-    title: 'Wordle',
-  }
+	return {
+		title: 'Coins tracker',
+	}
 }

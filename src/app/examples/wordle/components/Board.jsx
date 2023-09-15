@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { AppContext } from "../page";
+import { AppContext } from "../layout";
 import Letter from "./Letter";
 
 function Board() {

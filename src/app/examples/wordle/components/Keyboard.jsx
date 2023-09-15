@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useContext } from "react";
 import Key from "./Key";
-import { AppContext } from "../page";
+import { AppContext } from "../layout";
 
 function Keyboard() {
   const keys1 = ["Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P"];
