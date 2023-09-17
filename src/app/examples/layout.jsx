@@ -15,8 +15,8 @@ import {
 	FaChartBar, 
 	FaPenFancy, 
 	FaCoins, 
-	FaCog,
-	FaSignOutAlt,
+	FaTshirt,
+	FaSun,
 	FaBars,
 	FaThLarge
 } from 'react-icons/fa';
@@ -29,6 +29,8 @@ const links = [
 	{ name: 'Tetris', href: '/examples/tetris', icon: <FaThLarge size={ICON_SIZE} />},
 	{ name: 'Wordle', href: '/examples/wordle', icon: <FaPenFancy size={ICON_SIZE} />},
 	{ name: 'Coins tracker', href: '/examples/coins-tracker', icon: <FaCoins size={ICON_SIZE} />},
+	{ name: 'Solar system', href: 'https://solar-system-blond.vercel.app/', icon: <FaSun size={ICON_SIZE} />},
+	{ name: 'Tshirt', href: 'https://t-shirt-ai-rose.vercel.app/', icon: <FaTshirt size={ICON_SIZE} />},
 	{ name: 'Animations', href: '/examples/animations', icon: <FaChartBar size={ICON_SIZE} />},
 ]
 
